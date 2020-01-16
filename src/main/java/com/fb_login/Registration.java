@@ -58,7 +58,7 @@ public class Registration extends BasePage{
         Select dropDowm3=new Select(year);
         dropDowm3.selectByValue(Byear);
 
-        sex.sendKeys(Gender);
-        sex.click();
+//        sex.sendKeys(Gender);
+        sex.getText();
     }
 }
