@@ -33,7 +33,7 @@ public class BasePageTest {
 
         System.setProperty("webdriver.gecko.driver", "geckodriver");
         //         TODO to remove log from FIREFOX Browser
-        System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "null");
+        System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "firefoxLog");
         java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
         driver = new FirefoxDriver();
     }
